@@ -1,8 +1,8 @@
 
 #Laboratorio 02 busquedas no informadas
-#El código implementado en clase solo permite como máximo 7 digitos en una computadora, pudiendo llegar maximo a 8 pero en un tiempo
-# muy prolongado
-
+#El código implementado en clase solo permite como máximo 7 digitos en una computadora, pudiendo llegar maximo a 8 pero en un tiempo muy prolongado, 
+# al ser una funcion fifo primero en entrar, el primero en salir gracias al (pop) la cantidad de nodos se reducen, pero sigue siendo ineficiente ante mas
+# digitos, dentro del programa esta implementada la funcion para controlar el timepo usado para imprimir los nodos hijos hasta el nodo objetivo
 import random
 import time
 class Nodo:
